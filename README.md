@@ -45,24 +45,24 @@ The pipeline was built using the following technologies:
 
 The project is organized based on the Medallion architecture and pipeline stages.
 
-**databricks-dlt-bank-data-pipeline
+databricks-dlt-bank-data-pipeline
 │
 ├── landing
-│   └── landing_pipeline.py
+│ └── landing_pipeline.py
 │
 ├── bronze
-│   └── bronze_cleaning_pipeline.py
+│ └── bronze_cleaning_pipeline.py
 │
 ├── silver
-│   └── silver_transformation_pipeline.py
+│ └── silver_transformation_pipeline.py
 │
 ├── gold
-│   └── gold_analytics_pipeline.py
+│ └── gold_analytics_pipeline.py
 │
 ├── dashboards
-│   └── bi_dashboard.png
+│ └── bi_dashboard.png
 │
-└── README.md**
+└── README.md
 
 Each layer represents a stage in the data processing pipeline:
 
